@@ -21,7 +21,7 @@ ldconfig
 
 cd ~
 
-CONFIG = '
+CONFIG='
 {
     "server":"0.0.0.0",
     "server_port":443,

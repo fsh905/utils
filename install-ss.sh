@@ -8,7 +8,8 @@ echo "install pip"
 apt-get install python-pip
 
 echo "install shadowsocks"
-pip install shadowsocks
+# pip install shadowsocks
+pip install https://github.com/shadowsocks/shadowsocks/archive/master.zip -U
 
 # install libsodium
 echo "install libsodium"
@@ -21,22 +22,18 @@ ldconfig
 
 cd ~
 
-CONFIG='
+cat <<EOF > ss.json
 {
-    "server":"0.0.0.0",
+    "server":"::",
     "server_port":443,
     "local_address": "127.0.0.1",
     "local_port":1080,
     "password":"password123",
     "timeout":300,
-    "method":"salsa20",
+    "method":"aes-256-gcm",
     "fast_open": false
 }
-'
-
-echo $CONFIG
-
-echo $CONFIG > ss.json
+EOF
 
 echo "start shadowsocks"
 

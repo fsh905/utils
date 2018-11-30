@@ -38,3 +38,6 @@ EOF
 echo "start shadowsocks"
 
 ssserver -c ~/ss.json -d start
+
+# macos shadowsocks client
+# https://github.com/shadowsocks/ShadowsocksX-NG/releases

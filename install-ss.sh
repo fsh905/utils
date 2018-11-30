@@ -1,8 +1,12 @@
 #!/bin/bash
 
 echo "apt install update"
-
 apt-get install update
+
+# echo "upgrade"
+# 秋水逸冰bbr一键脚本, 不过可能无法正常安装高版本内核(4.19), 执行 apt upgrade 即可
+# wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+# apt-get upgrade
 
 echo "install pip"
 apt-get install python-pip

@@ -47,3 +47,5 @@ ssserver -c ~/ss.json -d start
 # https://github.com/shadowsocks/ShadowsocksX-NG/releases
 # windows client
 # https://github.com/shadowsocks/shadowsocks-windows/releases
+# android client
+# https://github.com/shadowsocks/shadowsocks-android/releases

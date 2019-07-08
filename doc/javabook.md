@@ -15,6 +15,7 @@
 * [Spring5 Doc(CN)](https://lfvepclr.gitbooks.io/spring-framework-5-doc-cn/)
 * [Spring Boot(CN)](https://segmentfault.com/a/1190000015040758)
 * [Spring MVC(CN)](https://www.w3cschool.cn/spring_mvc_documentation_linesh_translation/)
+* [SpringAll](https://github.com/wuyouzhuguli/SpringAll)
 
 
 ## 数据库

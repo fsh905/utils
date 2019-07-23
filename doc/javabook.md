@@ -26,7 +26,7 @@
 * [高性能MySQL](https://book.douban.com/subject/23008813/)
 
 ### Redis
-* [Redis doc中文版](redisdoc.com)
+* [Redis doc中文版](http://redisdoc.com/)
 * [Redis实践](https://book.douban.com/subject/26612779/)
 * [Redis设计与实现](https://book.douban.com/subject/25900156/)
 
